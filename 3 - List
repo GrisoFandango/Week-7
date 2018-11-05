@@ -1,0 +1,22 @@
+my_list=["apple","banana","orange",105,-234] #creation of a list
+
+print (my_list) #print the list
+
+#we do not need to put parenthesis around my_list[0], it will work anyway
+print ((my_list[0])[2]) #i am printing the character 2 from the string at index 0)
+
+print ((my_list[0])[3]) #i am printing the character 3 from the string at index 0)
+
+#challenge to create a loop that print out only float from the list
+a=-1
+for i in my_list:
+    a+= 1
+    def check(i):
+        try:
+            float(i)
+            return True
+        except ValueError:
+            return False
+    if check(i) == True:
+        print (my_list[a])
+    #a+=1
