@@ -1,0 +1,8 @@
+a="hello, world"
+for i in [1,4,7]:
+    print (a[i]) # first try i put () for index instead of [] 
+                 # this way print in different lines
+
+
+#print (a[1],a[4],a[7]) Alternative way to print out in the same line 
+    
